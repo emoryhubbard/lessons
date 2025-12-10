@@ -62,7 +62,7 @@ Using one class and one rule per element like `.card-settings-title` is a **lase
 
 <div class="card-settings">
   <h2 class="card-settings-title">Settings</h2>
-  <p class="card-settings-title">Change preferences</p>
+  <p class="card-settings-text">Change preferences</p>
 </div>
 ```
 
