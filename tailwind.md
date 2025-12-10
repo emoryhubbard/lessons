@@ -24,7 +24,7 @@
 
 .text {
   font-size: 1rem;
-  color: #4b5563;
+  color: black;
 }
 ```
 
@@ -46,7 +46,7 @@
 **index.css with grenade**
 ```css
 /* Coworker tries to target only the second card’s title using a descendant selector */
-.card:second-child .title {
+.card:nth-child(2) .title {
   color: blue; /* Now second card text "Users" of admin.html (not shown) turns blue */
 }
 ```
@@ -117,7 +117,7 @@ HTML and CSS evolve together, but when styles are in separate files, they cause 
 ```css
 /* You must search for this file to see or edit primary-action's styles*/
 .primary-action {
-  background: #3b82f6;
+  background: blue;
   padding: 12px 16px;
   border-radius: 9999px;
   text-transform: uppercase;
