@@ -1,5 +1,4 @@
-Tailwind concepts & exercises (requires no prereqs and demonstrates teaching style before committing to more lessons):
-# Tailwind concepts & exercises (requires no prereqs and demonstrates teaching style before committing to more lessons):
+## Tailwind concepts & exercises (requires no prereqs and demonstrates teaching style before committing to more lessons):
 
 - Clean html
 
