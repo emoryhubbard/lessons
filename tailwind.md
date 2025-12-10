@@ -91,7 +91,7 @@ Tailwind replaces long CSS definitions. On a related note, no need to make up me
 
 ### 2) Preventing Grenade Styling
 
-Tailwind enforces per-element utility classes, making it impossible for a teammate to accidentally override unrelated elements via the cascade. 
+Tailwind only affects the element it is used on, making it impossible for a teammate to accidentally override unrelated elements via the cascade.
 
 **index.html in Tailwind (grenade impossible)**
 ```html
