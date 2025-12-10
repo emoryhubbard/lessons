@@ -51,7 +51,7 @@
 }
 ```
 
-Using one class and one rule per element like `.card-dashboard-title` is a **laser** — instead of one rule accidentally affecting the entire app — a **grenade**.
+Using one class and one rule per element like `.card-settings-title` is a **laser** — instead of one rule accidentally affecting the entire app — a **grenade**.
 
 **index.html with laser**
 ```html
@@ -68,7 +68,6 @@ Using one class and one rule per element like `.card-dashboard-title` is a **las
 
 **index.css with laser**
 ```css
-/* Coworker tries to target only the second card’s title using a descendant selector */
 .card-title-settings {
   font-size: 1.5rem;
   font-weight: 600;
